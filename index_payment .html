@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical Department Registration</title>
+    <style>
+        @keyframes animateBG {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #dddada 0%, #fad0c4 100%);
+            background-size: 400% 400%;
+            animation: animateBG 15s ease infinite;
+            color: #333;
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+            position: relative;
+            z-index: 2;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            animation: slideDown 1s ease-in-out;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .qr-card {
+            background: #f7f7f8;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .qr-card:hover {
+            transform: scale(1.05);
+        }
+
+        .qr-card img {
+            width: 160px;
+            height: 160px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .qr-card img:hover {
+            transform: rotate(360deg);
+        }
+
+        .qr-card h2 {
+            margin: 10px 0;
+            color: #4CAF50;
+        }
+
+        .qr-card p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .register-link a {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 20px 30px;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .register-link a:hover {
+            background: #5345a0;
+        }
+        .register-link a:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .mechanical-bg {
+            background: url('https://www.discoverengineering.org/wp-content/uploads/2023/12/mj_11235_4.jpg') no-repeat center center/cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="mechanical-bg"></div>
+    <div class="container">
+        <h1>Dynamech 2024 Registration</h1>
+        <p>
+           <b> Follow the steps below to complete your Payment  and Registration :</b>
+        </p>
+        <p>
+            <strong>Step 1:</strong> Scan QR code and PAY Registration Fee.
+        </p>
+        <div class="qr-card">
+            <img src="cropped-logo-1.png" alt="UPI QR Code">
+            <h2>Scan to Pay</h2>
+            <p>Use any UPI app to scan the QR code and complete the payment<br>Account Details:<br>Name:<br>Phone Number:</p>
+        </div>
+        <p>
+            <strong>Step 2:</strong> *Click below register-link and follow the process and complete Registration<br> *Make sure to enter details carefully.<br>Do not forget to attach the screenshot in the google Form.
+        </p>
+        <div class="register-link">
+            <a href="https://www.youtube.com" target="_blank">Complete Registration Form</a>
+        </div>
+        <p>
+            If you encounter any issues during the registration or payment process, please contact our support team at contact : 
+        </p>
+    </div>
+    <div> <footer> &copy;   Dynamechs 2024 </footer>
+    </div>
+   
+</body>
+</html>

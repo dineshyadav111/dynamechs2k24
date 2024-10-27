@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical Department Registration</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mechanical Department Registration</h1>
+        <p>
+            Follow the steps below to complete your registration and payment:
+        </p>
+        <p>
+            <strong>Step 1:</strong> Visit the registration page on our website.
+        </p>
+        <p>
+            <strong>Step 2:</strong> Fill out the registration form with your personal and academic details.
+        </p>
+        <p>
+            <strong>Step 3:</strong> Review the information you have entered and click the "Submit" button.
+        </p>
+        <p>
+            <strong>Step 4:</strong> After submitting the form, you will receive a confirmation email with a unique registration ID.
+        </p>
+        <p>
+            <strong>Step 5:</strong> Proceed to the payment section and scan the UPI QR code below to complete the payment.
+        </p>
+        <div class="qr-card">
+            <img src="path_to_your_qr_code_image.png" alt="UPI QR Code">
+            <h2>Scan to Pay</h2>
+            <p>Use any UPI app to scan the QR code and complete the payment</p>
+        </div>
+        <p>
+            <strong>Step 6:</strong> After completing the payment, fill out the Google Form to finalize your registration:
+        </p>
+        <div class="register-link">
+            <a href="your_google_form_link" target="_blank">Complete Registration Form</a>
+        </div>
+        <p>
+            <strong>Step 7:</strong> Upon successful payment and form submission, you will receive a payment confirmation email.
+        </p>
+        <p>
+            If you encounter any issues during the registration or payment process, please contact our support team at support@mechanicaldept.edu.
+        </p>
+    </div>
+</body>
+</html>
